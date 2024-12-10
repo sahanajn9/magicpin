@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://static.magicpin.com/samara/media/blog/13-04-2023-favicon.ico">
+    <link rel="stylesheet" href="magicpinStlye.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="magicpin, food delivery, food, food order">
+    <meta name="description" content="Food Delivery App">
+    <meta name="author" content="Mohammed Kashif">
+    <title>Magic Pin Indias Third Largest Food Delivery App</title>
+</head>
+
+<body>
+    <!-- Home starts -->
+    <div class="home">
+        <nav>
+            <img src="https://lh3.googleusercontent.com/1OZGIs_orzxdKlNSh4xcCLIPU69MHBpGv5oYNR0YgTOlkeVf2HQoQQSQqgGwH2mJwCLABI3kEbbTG7M42rnOt1SYckMejdYZH1esG3Q"
+                alt="">
+            <div class="sub_nav">
+                <span>about us
+                    <!--icons-->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-chevron-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                    </svg>
+                </span>
+                <span>news room</span>
+                <span>blog</span>
+                <span>business
+                    <!--icons-->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-chevron-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                    </svg>
+                </span>
+                <span>get app
+                    <!-- Android Icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-android2" viewBox="0 0 16 16">
+                        <path
+                            d="m10.213 1.471.691-1.26q.069-.124-.048-.192-.128-.057-.195.058l-.7 1.27A4.8 4.8 0 0 0 8.005.941q-1.032 0-1.956.404l-.7-1.27Q5.281-.037 5.154.02q-.117.069-.049.193l.691 1.259a4.25 4.25 0 0 0-1.673 1.476A3.7 3.7 0 0 0 3.5 5.02h9q0-1.125-.623-2.072a4.27 4.27 0 0 0-1.664-1.476ZM6.22 3.303a.37.37 0 0 1-.267.11.35.35 0 0 1-.263-.11.37.37 0 0 1-.107-.264.37.37 0 0 1 .107-.265.35.35 0 0 1 .263-.11q.155 0 .267.11a.36.36 0 0 1 .112.265.36.36 0 0 1-.112.264m4.101 0a.35.35 0 0 1-.262.11.37.37 0 0 1-.268-.11.36.36 0 0 1-.112-.264q0-.154.112-.265a.37.37 0 0 1 .268-.11q.155 0 .262.11a.37.37 0 0 1 .107.265q0 .153-.107.264M3.5 11.77q0 .441.311.75.311.306.76.307h.758l.01 2.182q0 .414.292.703a.96.96 0 0 0 .7.288.97.97 0 0 0 .71-.288.95.95 0 0 0 .292-.703v-2.182h1.343v2.182q0 .414.292.703a.97.97 0 0 0 .71.288.97.97 0 0 0 .71-.288.95.95 0 0 0 .292-.703v-2.182h.76q.436 0 .749-.308.31-.307.311-.75V5.365h-9zm10.495-6.587a.98.98 0 0 0-.702.278.9.9 0 0 0-.293.685v4.063q0 .406.293.69a.97.97 0 0 0 .702.284q.42 0 .712-.284a.92.92 0 0 0 .293-.69V6.146a.9.9 0 0 0-.293-.685 1 1 0 0 0-.712-.278m-12.702.283a1 1 0 0 1 .712-.283q.41 0 .702.283a.9.9 0 0 1 .293.68v4.063a.93.93 0 0 1-.288.69.97.97 0 0 1-.707.284 1 1 0 0 1-.712-.284.92.92 0 0 1-.293-.69V6.146q0-.396.293-.68" />
+                    </svg>
+                    <!-- Safari Icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-apple" viewBox="0 0 16 16">
+                        <path
+                            d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282" />
+                        <path
+                            d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282" />
+                    </svg>
+                </span>
+                <a href="##">Sign in/up</a>
+            </div>
+        </nav>
+        <!-- Animation icons Starts -->
+        <div class="animation">
+                <img  class="magic1-img" src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\magic.png" alt="">
+                <img  class="magic2-img" src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\magic.png" alt="">
+                <img  class="magic3-img" src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\magic.png" alt="">
+                <img  class="magic4-img" src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\magic.png" alt="">
+                <img  class="magic5-img" src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\magic.png" alt="">
+
+                <img class="magic-coin1-img" src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\magic-coin.png" alt="">
+                <img class="magic-coin2-img" src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\magic-coin.png" alt="">
+                <img class="magic-coin2-img" src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\magic-coin.png" alt="">
+                <img class="magic-coin3-img" src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\magic-coin.png" alt="">
+                <img class="magic-coin4-img" src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\magic-coin.png" alt="">
+                <img class="magic-coin5-img" src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\magic-coin.png" alt="">
+        </div>
+        <!-- Animation icons ends -->
+
+        <img class="bg-image" src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\bg11-building.png" alt="">
+        <div class="home-text-search">
+            <h1 class="primary-heading">
+                India's <span>No. 1</span> Local Saving SuperApp
+            </h1>
+            <div class="search-bar">
+                <div class="loc">
+                    <img src="https://static.magicpin.com/samara/media/blog/13-04-2023-favicon.ico" alt="">
+                    <p style='font-family: "Faculty Glyphic", sans-serif; font-size: 14px;'>Search Location</p>
+                </div>
+                <hr>
+                <div class="search">
+                    <input type="text" placeholder="Search for the places...">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Home ends -->
+    <div class="home-category">
+        <div class="items">
+            <img src="item-1.webp" alt="">
+            <h1 class="item-names">ONDC</h1>
+        </div>
+        <div class="items">
+            <img src="item-2.webp" alt="">
+            <h1 class="item-names">DINE - OUT</h1>
+        </div>
+        <div class="items">
+            <img src="item-3.webp" alt="">
+            <h1 class="item-names">FOOD DELIVERY</h1>
+        </div>
+        <div class="items">
+            <img src="item-4.webp" alt="">
+            <h1 class="item-names">FASHION</h1>
+        </div>
+        <div class="items">
+            <img src="item-5.webp" alt="">
+            <h1 class="item-names">ELECTRONICS</h1>
+        </div>
+        <div class="items">
+            <img src="item-6.webp" alt="">
+            <h1 class="item-names">BEAUTY</h1>
+        </div>
+    </div>
+    <div class="item-names">
+
+    </div>
+    <!-- magic body -->
+    <div class="magic-body">
+        <div class="question">
+            <h1 align="center">How does this <span>magic</span> happen?</h1>
+        </div>
+        <div class="magic-body-content">
+            <div class="magic-body-content-left">
+                <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\Items-1.png" alt="">
+            </div>
+            <div class="magic-body-content-right">
+                <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\Items-3.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="slide-container">
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/8Id5O-tH-Q1gsokIwu_Nk4vhVRguiw2zBvx0H8CH3BP19W16hO4ccsSks_wEgxmVY8phkuSe_j1FVDY_VDXsWVc2s3oICJPRp7HGdCcJww=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img
+                    src="https://lh3.googleusercontent.com/4dEkMhbPnVKIRMbKMc30IcWKMRceXL0ogpEFdfehAZxfN8w2ulKUQ8HhlAXcErulfXFa--attCcpA7ZfPTYqQnEwCc01qxO-LTR23UJA=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img
+                    src="https://lh3.googleusercontent.com/niuMbrPwghyYA4XFUA1YyyCTkRKkHCNMgOy0KIs0OxRxBx6_MVcG5uX3COoJQnY1l8bX41tTzMV7RabtDhFbIiwEjjSGq0f_FnwputY=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/ZAd1dnrRJAJSZLxZizlGg-Wk1PX53Jz3wKe5inPrIu9q8iL-Wp4TuM7hZ2UE_Xp0CR5BTicimxjH91MV3pK62qBeYIdxfdV1zaDqnog=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/JJyiLrCeGGzhiAW2-CKzxlsxCkLuxG5LqjYFBSzxeLQxyfeI85YOFcuq-9f-0R-FCEuQF-hwOYIcs1pfxXNBEdZnMrfN1Roit7RmS-Q1gg=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/ewHObg_1pMTC9tZyOmIVHbgrvnXGhJdYQI3i0GAyeoY5DWdluX_qttZkFQc4vlcdQ3dy8qOzeWSuFKGumR66wCO0-X7Fio9vweGwRfQM=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/72VKlHUXutA9Kk26xZ46F0Q7FDeujb3A-dm-0i8Fl_I5Dt3_PCff_CofPhuO9h3Z07ZnkGhk69dRdb8TNRLwHBCyjAFIBtb9cxfas6s=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/tYdFa5phSsLr7QCLw9QPnvVEu24Dvab0L4wMv5NfKD_rKwaTPeF1AtdWIz9SX2V9KnJWqAsIb7q7b-hXsOK0CovKE-daTgQjziWbpJsC=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/TOx8V8UFBFKVOchMFgxlzjTfp4SG8a87TLBc8LfQwZ2PkLUvFYaVBq253-7zC7P5eBMi0D0xHK5xbzTmtVtTp4T5F2bVhz3kZDaNSYg=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/3dYJ3Gjo3vcl0qIVHd3_FvoTRwPv-wBKgUh6RNjnhzJX-KsCebNU18_AAoYzFarGiZOiSK-0ipkSh-M93FeDt8GSjeBT77XLerC4feWM1Q=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img
+                    src="https://lh3.googleusercontent.com/6L8wsszS6nrqrxaAMFKBm_Uw-4oTJ6T3D36Js66DnW2g_D9mv0Jz_HnGR1te5vAQ2HQyr7jFcotIaGxbR8cgKj4OiPgA7alty-YfvOu3=w200-rw">
+            </div>
+
+            <!--  -->
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/ZzjzUfnlPvVopBxjHKaybwdzjbEsKQPoS5zgaKlmG56iDxRlUy8xGtPrwM02ztTpmpfnP_J5ILwZnXVrMLxEprX3JXIll4-7WkZFpxxo=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/kpjdE-UL0q4jAZbu-Noi0mnfpALbKhDWxv_DALD4HLMuorf5Wy32aXBHmK6urN2Rh9UIA1uEo2yEC0SHsL3wtCG8Um5RTKu5ywDE5LqrEA=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case2"
+                    src="https://lh3.googleusercontent.com/TgrI8v884CatxfHS4UlzRyc7MnMoqCDHvBoEr2jZwPmWualtxizRo2zEtf1fiOVd6bfCWP1sbg0X2HoNe00siDN4JjDb0NN7jmVn7WFM8g=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case2"
+                    src="https://lh3.googleusercontent.com/pCkI8PWvl0udyX2i38aaLjLut9eSzMmEbX_HTg4MTyPVmppvyABrI3-EnCn9LiAjurXGL9fWkjPQCsbINQ-zW7tzu-Zx1sQCH99KY4M=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class='cafe'
+                    src="https://lh3.googleusercontent.com/DKbU_AxGCeE-4IFqf7uTZJ2iZH1_VlxHr889I-kFhvDba2U6eQbK2laS8z1F8IXf2RfG9aFrUDEHvdTL17TmN3tZTjiZvK9QgGRHzPk=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/TmQXy5ELBjnS9658GfvP8fl847129VGQA6Dptu2mLBMxPLl5-HR6f8w7FWljEFsPneKv-l7Wb3z-8zrzyIRqd6Pv9flKoRCThAkXyyylFg=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/6s3aOGJBg1boeII2SAjilVpIrPExVhDRTCwF5pCQb3kq9vpf_Nbx_SaSIaA21E8c4PLX43xCDu2tsCXYie_ZNQXs4Is0e8b8lqi0IAtW=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/rzqYfzUU4jUbsGiqPm2VkIZbEtsXBjqPozeKdJ4XYYEEITzgbz23K_0OzOBZRT2jSaF7rWcvVEkdpJuhgfml9BKV5ugtT0w42L67BbR4Pw=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/7CHGKk26ffNDVfISzlfjW3WWPg4EE0OiZMVI05qcFnEj39-oNCaiYNSOu1ypz_yxBCkLbp8TpCqUFlbPD1uIS_KCuleEVeg7i1zAbCY=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/0PWcF-r3L3ik9u7HZFj7Uwkh5LPVkzoTuQZPkTtlzbiUDmFiOgBRgOyhVdPECx0JMCdvm7OoV2B6zIsuqDBn-8cb7lWeNxI8WszlfZES6A=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img
+                    src="https://lh3.googleusercontent.com/ySJq8-sni8sqWdTN3NpvrqSvIKWfRf56s7TOsgcp7uzbhKMkPBQ4nbLHGTt-t7XA1dklxIiyASGnpKVxnwRdaCdScRIKEsO_kkQXoBY=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/Hhl17vGR_dnx-h3BKh4o5lTSCI0YJj2bNSwNOBSnSnjfitODZICgeC-eLi-fcJnzX7cTRiIYmH5obJdzaoojr_rtX1XSaM6IBBGun7EI=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img
+                    src="https://lh3.googleusercontent.com/EH0WxllV4GRlab0ezFSCaUPfojNHjLRVwgx11Mgh60bexax-Uit-wbNgP_2ej-zXYwaJgS7_owhFsCuzg2QJkHk8MiBErGxiVmdw0ujwjg=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/4yxfINLGGGUDd685Bf0-uPP8RNjUULU-64EfiynWc7_Cw4pootKrXK9G-l8dOAYgwoeOTt-s23CUI0ZngS-Z0b12v1i9ls0C5lEu5sVj=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img
+                    src="https://lh3.googleusercontent.com/YZXK0zXRLwdmf8lRG7cSG9sTarRBGg05zQMIeMLbr1P-t58GZ93TGKarRofV_QQGfAK0L0ZSM1Q8k6B3E-2fuHNXVDtnmyps7SwZBlPp=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/U7NKUzHQGJ6Cgy7vtcAwDos1uzDYbGDGWqit4_Liv4Mij66PzXgGMffDTlhsLExtH3y7auYWv_rybGtnwbE8XblTwdAKQlTxTL5W3E4=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img
+                    src="https://lh3.googleusercontent.com/WAByTw_9eW4c5neISy9rKpVfjeLups_uJMuG_kPA2XIUNektKLJy7Ct3b4lBexSJ85nJI7gBKdVtxNGHmsHLmj2roi7oH4Ez2gbchKhK=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img
+                    src="https://lh3.googleusercontent.com/fjJV3OAxZCvffLazIgm2agWze6I9eJ4e--8vAHh1lVIzX6DNvYH0BeOXLKWJv6UEjYZzmWLpwZW2B4S_CKOcUqz9DZJ8T60UuAU0HwTc=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/8Id5O-tH-Q1gsokIwu_Nk4vhVRguiw2zBvx0H8CH3BP19W16hO4ccsSks_wEgxmVY8phkuSe_j1FVDY_VDXsWVc2s3oICJPRp7HGdCcJww=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img
+                    src="https://lh3.googleusercontent.com/4dEkMhbPnVKIRMbKMc30IcWKMRceXL0ogpEFdfehAZxfN8w2ulKUQ8HhlAXcErulfXFa--attCcpA7ZfPTYqQnEwCc01qxO-LTR23UJA=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/tYdFa5phSsLr7QCLw9QPnvVEu24Dvab0L4wMv5NfKD_rKwaTPeF1AtdWIz9SX2V9KnJWqAsIb7q7b-hXsOK0CovKE-daTgQjziWbpJsC=w200-rw">
+            </div>
+
+            <!--  -->
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/TOx8V8UFBFKVOchMFgxlzjTfp4SG8a87TLBc8LfQwZ2PkLUvFYaVBq253-7zC7P5eBMi0D0xHK5xbzTmtVtTp4T5F2bVhz3kZDaNSYg=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/3dYJ3Gjo3vcl0qIVHd3_FvoTRwPv-wBKgUh6RNjnhzJX-KsCebNU18_AAoYzFarGiZOiSK-0ipkSh-M93FeDt8GSjeBT77XLerC4feWM1Q=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img
+                    src="https://lh3.googleusercontent.com/6L8wsszS6nrqrxaAMFKBm_Uw-4oTJ6T3D36Js66DnW2g_D9mv0Jz_HnGR1te5vAQ2HQyr7jFcotIaGxbR8cgKj4OiPgA7alty-YfvOu3=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/ZzjzUfnlPvVopBxjHKaybwdzjbEsKQPoS5zgaKlmG56iDxRlUy8xGtPrwM02ztTpmpfnP_J5ILwZnXVrMLxEprX3JXIll4-7WkZFpxxo=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/kpjdE-UL0q4jAZbu-Noi0mnfpALbKhDWxv_DALD4HLMuorf5Wy32aXBHmK6urN2Rh9UIA1uEo2yEC0SHsL3wtCG8Um5RTKu5ywDE5LqrEA=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case2"
+                    src="https://lh3.googleusercontent.com/TgrI8v884CatxfHS4UlzRyc7MnMoqCDHvBoEr2jZwPmWualtxizRo2zEtf1fiOVd6bfCWP1sbg0X2HoNe00siDN4JjDb0NN7jmVn7WFM8g=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case2"
+                    src="https://lh3.googleusercontent.com/pCkI8PWvl0udyX2i38aaLjLut9eSzMmEbX_HTg4MTyPVmppvyABrI3-EnCn9LiAjurXGL9fWkjPQCsbINQ-zW7tzu-Zx1sQCH99KY4M=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="cafe"
+                    src="https://lh3.googleusercontent.com/DKbU_AxGCeE-4IFqf7uTZJ2iZH1_VlxHr889I-kFhvDba2U6eQbK2laS8z1F8IXf2RfG9aFrUDEHvdTL17TmN3tZTjiZvK9QgGRHzPk=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/TmQXy5ELBjnS9658GfvP8fl847129VGQA6Dptu2mLBMxPLl5-HR6f8w7FWljEFsPneKv-l7Wb3z-8zrzyIRqd6Pv9flKoRCThAkXyyylFg=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/6s3aOGJBg1boeII2SAjilVpIrPExVhDRTCwF5pCQb3kq9vpf_Nbx_SaSIaA21E8c4PLX43xCDu2tsCXYie_ZNQXs4Is0e8b8lqi0IAtW=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/rzqYfzUU4jUbsGiqPm2VkIZbEtsXBjqPozeKdJ4XYYEEITzgbz23K_0OzOBZRT2jSaF7rWcvVEkdpJuhgfml9BKV5ugtT0w42L67BbR4Pw=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/7CHGKk26ffNDVfISzlfjW3WWPg4EE0OiZMVI05qcFnEj39-oNCaiYNSOu1ypz_yxBCkLbp8TpCqUFlbPD1uIS_KCuleEVeg7i1zAbCY=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/0PWcF-r3L3ik9u7HZFj7Uwkh5LPVkzoTuQZPkTtlzbiUDmFiOgBRgOyhVdPECx0JMCdvm7OoV2B6zIsuqDBn-8cb7lWeNxI8WszlfZES6A=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img
+                    src="https://lh3.googleusercontent.com/ySJq8-sni8sqWdTN3NpvrqSvIKWfRf56s7TOsgcp7uzbhKMkPBQ4nbLHGTt-t7XA1dklxIiyASGnpKVxnwRdaCdScRIKEsO_kkQXoBY=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/Hhl17vGR_dnx-h3BKh4o5lTSCI0YJj2bNSwNOBSnSnjfitODZICgeC-eLi-fcJnzX7cTRiIYmH5obJdzaoojr_rtX1XSaM6IBBGun7EI=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img
+                    src="https://lh3.googleusercontent.com/EH0WxllV4GRlab0ezFSCaUPfojNHjLRVwgx11Mgh60bexax-Uit-wbNgP_2ej-zXYwaJgS7_owhFsCuzg2QJkHk8MiBErGxiVmdw0ujwjg=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/4yxfINLGGGUDd685Bf0-uPP8RNjUULU-64EfiynWc7_Cw4pootKrXK9G-l8dOAYgwoeOTt-s23CUI0ZngS-Z0b12v1i9ls0C5lEu5sVj=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img
+                    src="https://lh3.googleusercontent.com/YZXK0zXRLwdmf8lRG7cSG9sTarRBGg05zQMIeMLbr1P-t58GZ93TGKarRofV_QQGfAK0L0ZSM1Q8k6B3E-2fuHNXVDtnmyps7SwZBlPp=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img class="special-case"
+                    src="https://lh3.googleusercontent.com/U7NKUzHQGJ6Cgy7vtcAwDos1uzDYbGDGWqit4_Liv4Mij66PzXgGMffDTlhsLExtH3y7auYWv_rybGtnwbE8XblTwdAKQlTxTL5W3E4=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img
+                    src="https://lh3.googleusercontent.com/WAByTw_9eW4c5neISy9rKpVfjeLups_uJMuG_kPA2XIUNektKLJy7Ct3b4lBexSJ85nJI7gBKdVtxNGHmsHLmj2roi7oH4Ez2gbchKhK=w200-rw">
+            </div>
+
+            <div class="image-slide">
+                <img
+                    src="https://lh3.googleusercontent.com/fjJV3OAxZCvffLazIgm2agWze6I9eJ4e--8vAHh1lVIzX6DNvYH0BeOXLKWJv6UEjYZzmWLpwZW2B4S_CKOcUqz9DZJ8T60UuAU0HwTc=w200-rw">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Top Fashion Brand -->
+    <div class="top-brands">
+        <h1 align="center">Top Fashion Brands</h1>
+        <div id="top-brands">
+            <a href="https://wildcraft.com/"><img
+                    src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\top brands\b1.webp" alt=""></a>
+            <a href="https://levi.in/"><img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\top brands\b2.webp"
+                    alt=""></a>
+            <a href="https://uspoloassn.in/"><img
+                    src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\top brands\b3.webp" alt=""></a>
+            <a href="https://in.puma.com/in/en"><img
+                    src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\top brands\b4.webp" alt=""></a>
+            <a href="https://www.bata.com/in/"><img
+                    src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\top brands\b5.webp" alt=""></a>
+            <a href="https://www.titan.co.in/"><img
+                    src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\top brands\b6.webp" alt=""></a>
+            <a href="https://blackberrys.com/"><img
+                    src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\top brands\b7.webp" alt=""></a>
+        </div>
+    </div>
+
+    <!-- Top Food Brands -->
+    <div class="top-food-brands">
+        <h1 align="center">Top Food Brands</h1>
+        <div id="top-food-brands">
+            <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\Top food brands\f1.webp" alt="Food brand image 1">
+            <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\Top food brands\f2.webp" alt="Food brand image 2">
+            <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\Top food brands\f3.webp" alt="Food brand image 3">
+            <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\Top food brands\f4.webp" alt="Food brand image 4">
+            <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\Top food brands\f5.webp" alt="Food brand image 5">
+            <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\Top food brands\f6.webp" alt="Food brand image 6">
+            <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\Top food brands\f7.webp" alt="Food brand image 7">
+            <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\Top food brands\f8.webp" alt="Food brand image 8">
+            <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\Top food brands\f9.webp" alt="Food brand image 9">
+            <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\Top food brands\f10.webp"
+                alt="Food brand image 10">
+            <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\Top food brands\f11.webp"
+                alt="Food brand image 11">
+            <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\Top food brands\f12.webp"
+                alt="Food brand image 12">
+            <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\Top food brands\f13.webp"
+                alt="Food brand image 13">
+            <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\Top food brands\f14.webp"
+                alt="Food brand image 14">
+            <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\Top food brands\f15.webp"
+                alt="Food brand image 15">
+            <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\Top food brands\f16.webp"
+                alt="Food brand image 16">
+            <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\Top food brands\f17.webp"
+                alt="Food brand image 17">
+            <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\Top food brands\f18.webp"
+                alt="Food brand image 18">
+
+        </div>
+    </div>
+
+    <!--  -->
+    <div class="conclusion">
+        <!-- <section class="download-section lazyloaded" data-bg="https://static.magicpin.com/samara/static/images/home/download-section.png" style="background-image: url('https://static.magicpin.com/samara/static/images/home/download-section.png');"></section> -->
+        <!-- <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\download-section.png" alt=""> -->
+        <div class="statements">
+            <h3 align="center">Download the <span>magicpin app</span> for</h3>
+            <h1 align="center">Cashback, Vouchers, Reviews</h1>
+            <h3 align="center">and much more wherever you go!</h3>
+        </div>
+
+        <div class="bottom-items">
+            <div class="sub-bottom-items">
+                <img src="item-3.webp" alt="">
+                <h1 class="item-names">F&B</h1>
+            </div>
+            <div class="sub-bottom-items">
+                <img src="item-6.webp" alt="">
+                <h1 class="item-names">Beauty</h1>
+            </div>
+            <div class="sub-bottom-items">
+                <img src="item-4.webp" alt="">
+                <h1 class="item-names">Fashion</h1>
+            </div>
+            <div class="sub-bottom-items">
+                <img src="item-7.webp" alt="">
+                <h1 class="item-names">Grocery</h1>
+            </div>
+            <div class="sub-bottom-items">
+                <img src="item-8.webp" alt="">
+                <h1 class="item-names">Pharmacy</h1>
+            </div>
+        </div>
+        <h3 align="center" id="suggest" style=' font-family: "Faculty Glyphic", sans-serif;'>Get the app download link
+            via SMS and start using our app today. Ready to get started?</h3>
+
+        <div class="search_bottom">
+            <h4 style="position: absolute;
+            top:25%;left:5%;opacity: 0.6;">+91</h4>
+            <div class="sub_search_bottom"><input type="text" placeholder="Enter Mobile Number"></div>
+            <button>Share now</button>
+        </div>
+        <div class="googleplay">
+            <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\googleplay-applestore.png" alt="">
+        </div>
+    </div>
+    <footer>
+        <div class="foot-container">
+            <div class="left">
+                <div class="left-img">
+                    <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\footer_imgs\left\logo1.webp" alt="">
+                    <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\footer_imgs\left\logo2.png" alt="">
+                    <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\footer_imgs\left\logo3.jpg" alt="">
+                    <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\footer_imgs\left\logo4.webp" alt="">
+                    <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\footer_imgs\left\logo5.jpg" alt="">
+                    <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\footer_imgs\left\logo6.webp" alt="">
+                </div>
+                <h1 align="center"
+                    style='font-size:20px; margin-top: 20px;font-family: "Faculty Glyphic", sans-serif; color:rgb(235,17,97)'>
+                    magicpin for sneakers</h1>
+                <p
+                    style='font-size:13px; margin-top: 10px;font-family: "Faculty Glyphic", sans-serif; color:rgb(180, 174, 176); margin-right: 15PX; margin-left: 15PX;'>
+                    Try the most powerful platform to drive consumer engagement, offline commerce and generate
+                    actionable insights.</p>
+                <div class="logo-pin">
+                    <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\next.png" alt="">
+                </div>
+            </div>
+            <div class="right">
+                <div class="right-img">
+                    <div class="left-img">
+                        <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\footer_imgs\right\logo1.jpg" alt="">
+                        <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\footer_imgs\right\logo2.jpg" alt="">
+                        <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\footer_imgs\right\logo3.jpg" alt="">
+                        <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\footer_imgs\right\logo4.png" alt="">
+                        <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\footer_imgs\right\logo5.jpg" alt="">
+                        <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\footer_imgs\right\logo6.png" alt="">
+                    </div>
+                    <h1 align="center"
+                        style='font-size:20px; margin-top: 20px;font-family: "Faculty Glyphic",sans-serif; color:rgb(235,17,97)'>
+                        magicpin for watches</h1>
+                    <p style='font-size:13px; margin-top: 10px;font-family: "Faculty Glyphic", sans-serif; color:rgb(180, 174, 176); position: relative;
+                    left:50%;transform: translate(-43%,0%);'>Promote your business with a platform designed to attract
+                        the right audience based on location, spending pattern, gender, and more.</p>
+                    <div class="logo-pin">
+                        <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\next.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="f1">
+            <div class="f1-left">
+                <img src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\footer_imgs\orderhere-logo.svg" alt="">
+                <h2>Create your <a href="">free online dukaan</a></h2>
+            </div>
+            <div class="f1-right">
+                <!-- Instagram icon -->
+                <a href="https://www.instagram.com/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                    </svg>
+                </a>
+                <!-- GitHub -->
+                <a href="https://github.com/KashifTechie">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-github" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                    </svg>
+                </a>
+                <!-- Twitter -->
+                <a href="https://x.com/home">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-twitter-x" viewBox="0 0 16 16">
+                        <path
+                            d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                    </svg>
+                </a>
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/feed/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                    </svg>
+                </a>
+                <!-- Email -->
+                <a href="https://mail.google.com/mail/u/0/#inbox/FMfcgzQXKDbzBPkwJPHhVQWjvxKWRxnB">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path
+                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="f2">
+            <pre><h2><span>CATEGORIES:</span> Restaurants  Beauty Fashion  Grocery  Fitness  Electronics  Hotel  Pharmacy  Other</h2></pre>
+        </div>
+        <div class="company_info">
+            <p>Name of the Company: SAMAST TECHNOLOGIES PRIVATE LIMITED</p>
+            <p>CIN: U74140HR2015PTC073829</p>
+            <p>Registered Office Address: Plot No.379 & 380, Sector - 29, Near IFFCO Chowk Metro Station, Gurugram,
+                Haryana-122001, India</p>
+        </div>
+        <div class="footer-grid-info">
+            <div class="up">
+                <h1>POPULAR CITIES</h1>
+            </div>
+            <div class="up">
+                <h1>POPULAR LOCALITIES</h1>
+            </div>
+            <div class="up">
+                <h1>POPULAR DINE-IN</h1>
+            </div>
+            <div class="up">
+                <h1>POPULAR PHARMACIES
+                </h1>
+            </div>
+            <div class="up">
+                <h1>POPULAR FASHION <br> HUBS</h1>
+            </div>
+            <div class="up">
+                <h1>POPULAR DELIVERY <br> RESTAURANTS</h1>
+            </div>
+            <div class="down">
+                <p>Pune</p>
+                <p>Bangalore</p>
+                <p>New Delhi</p>
+                <p>Mumbai</p>
+                <p>Hyderabad</p>
+                <p>Kolkata</p>
+                <p>Gurgaon</p>
+                <p>Noida</p>
+            </div>
+            <div class="down">
+                <p>Kothrud, Pune</p>
+                <p>Kalyan Nagar, Bangalore</p>
+                <p>Koramangala, Bangalore</p>
+                <p>Sector 29, Gurgaon</p>
+                <p>Wakad, Hyderabad</p>
+                <p>Chembur, Mumbai</p>
+                <p>Connaught Place (CP), New Delhi</p>
+                <p>New BEL Road, Bangalore</p>
+            </div>
+            <div class="down">
+                <p>Terrace Grill</p>
+                <p>Cafe Azzure</p>
+                <p>Ecstasy Bar And Eatery</p>
+                <p>Char Bar</p>
+                <p>Gilly's Restobar</p>
+                <p>The Terrace at Gilly's Redefined</p>
+                <p>Sherlock's Pub</p>
+                <p>Hotel Kunal</p>
+            </div>
+            <div class="down">
+                <p>Jyotiba Medical</p>
+                <p>Omkar Medical and General Store</p>
+                <p>Yash Chemist</p>
+                <p>New Purvi Medical Stores</p>
+                <p>Giriraj Pharmacy</p>
+                <p>Pooja Medical & General Stores</p>
+                <p>Apollo Pharmacy</p>
+                <p>Pavitra Medical</p>
+            </div>
+            <div class="down">
+                <p>Shoppers Stop</p>
+                <p>Allen Solly</p>
+                <p>Helios</p>
+                <p>Lenskart</p>
+                <p>U.S. Polo Assn.</p>
+                <p>Wildcraft</p>
+            </div>
+            <div class="down">
+                <p>Wow! Momo</p>
+                <p>Madras Cafe</p>
+                <p>La Pino'z Pizza</p>
+                <p>House of Paratha</p>
+                <p>Ganeshwaram</p>
+                <p>Starboy Pizza & Shakes</p>
+                <p>Jija Pure Veg</p>
+                <p>Chinese Wok - Wok Express</p>
+            </div>
+        </div>
+        <div class="options">
+            <a href="#">News Room</a>
+            <a href="#">About Us</a>
+            <a href="#">Vouchers</a>
+            <a href="#">Around You</a>
+            <a href="#">Blog</a>
+            <a href="#">Near Me</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Sitemap</a>
+            <a href="#">Places</a>
+            <a href="#">Partner Brands</a>
+            <a href="#">magicpin for Corporates</a>
+            <a href="#">Careers</a>
+            <a href="#">Web Stories</a>
+
+        </div>
+        <p align="center" style='margin-top: 35px; font-size: 20px;color:rgb(245, 50, 122);font-family: "Faculty Glyphic", sans-serif; '>DIRECTORY</p>
+        <pre><p style='margin-top: 35px; font-size: 14px;font-family: "Faculty Glyphic", sans-serif; margin-top: 8px;  margin-left: 50%;transform: translate(-52%,0%); color:white'>A     B     C     D     E     F     G     H     I     J     K     L     M     N     O     P     Q     R     S     T     U     V     W     X     Y     Z     Others</p></pre>
+
+        <div class="last">
+            <img  class='img1' src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\googleplay-applestore.png" alt="">
+            <img  class='img2'   src="K:\PYSPIDERS\WEB_TECHNOLOGIES\PROJECT\magicpin\footer_imgs\badge-web-app.png" alt="">
+        </div>
+    </footer>
+</body>
+
+</html>
